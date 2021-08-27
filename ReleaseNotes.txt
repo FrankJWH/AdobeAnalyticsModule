@@ -1,0 +1,20 @@
+﻿<h3>AdobeAnalyticsModule</h3>
+<p class="Contributor">
+	Shift7Digital.com <br />
+	<a href="mailto:modules@shift7digital.com">modules@shift7digital.com</a><br />
+	<a href=https://www.shift7digital.com/>https://www.shift7digital.com/</a><br />
+	This extension was created using <a href="https://www.christoc.com">Christoc's</a> Module Development Templates for DNN.
+</p>
+<hr/>
+<div class="License">
+	<h3>About the AdobeAnalyticsModule</h3>
+	<p class="Owner">
+		<b>Version CHANGEME</b><br /><br />
+	</p>
+	<p>
+		This Module will perform the task of pulling page properties 
+		and pushing it directly to the digitalData layer on the windows
+		browser object. This will allow the data to be viewable on Adobe
+		Connect.
+	</p>
+</div>
