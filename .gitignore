@@ -12,6 +12,7 @@
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
+[Ii]nstall
 x64/
 x86/
 build/
@@ -276,6 +277,3 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-
-# personal removes
-[Ii]nstall

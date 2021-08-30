@@ -48,6 +48,8 @@ namespace Shift7Digital.Modules.Shift7AnalyticsAdobeAnalyticsModule
                 ViewState["qcCountry"] = RegionInfo.CurrentRegion.DisplayName;
                 ViewState["qcLanguage"] = Request.UserLanguages[0] ?? "en-us";
                 ViewState["qcDomain"] = Request.Url.Host;
+                // TODO: Statement below meant to gather page type of template (i.e. product-detail-page, campaign-home-page, etc.)
+                // TODO: Skin name is used, if better resource name applies then replace assignment below
                 ViewState["qcPageType"] = !string.IsNullOrWhiteSpace(tabInfo.SkinPath) ? new DirectoryInfo(tabInfo.SkinPath).Name : "n/a";
                 ViewState["qcPrimaryCategory"] = ((TabInfo)tabInfo.BreadCrumbs[0]).Title; 
                 ViewState["qcSubCategory1"] = tabInfo.BreadCrumbs.Count >= 2 ? ((TabInfo)tabInfo.BreadCrumbs[1]).Title : "n/a";
