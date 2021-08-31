@@ -45,7 +45,7 @@ namespace Shift7Digital.Modules.Shift7AnalyticsAdobeAnalyticsModule
             try
             {
                 ViewState["qcPageName"] = tabInfo.TabName;
-                ViewState["qcCountry"] = RegionInfo.CurrentRegion.DisplayName;
+                ViewState["qcCountry"] = RegionInfo.CurrentRegion.TwoLetterISORegionName;
                 ViewState["qcLanguage"] = Request.UserLanguages[0] ?? "en-us";
                 ViewState["qcDomain"] = Request.Url.Host;
                 // TODO: Statement below meant to gather page type of template (i.e. product-detail-page, campaign-home-page, etc.)
